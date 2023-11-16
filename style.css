@@ -1,0 +1,92 @@
+#header-banner{
+    /* background-image:url(/images/birdies.jpg);  */
+      background: linear-gradient(#b30f0f36,#3a29d749), url(portofolio\ image1.jpg);
+      background-size: cover;
+   padding: 10rem 4rem 10rem 4rem
+   
+   }
+   #about-me{
+    margin-top: 3rem;
+    font-size: large;
+   margin-bottom: 6rem;
+   
+    
+}
+#about-me h2{
+    margin-top: 4rem;
+    text-shadow: 3px 3px whitesmoke;
+}
+#about-me p{
+    line-height: 25px;
+    margin-top: 1rem;
+}
+#about-me a{
+    text-align: center;
+}
+#what-i-do h1{
+    font-size: 50px;
+    text-shadow: 3px 3px aliceblue;
+}
+#what-i-do h3{
+    margin-bottom: 1rem;
+    display: inline;
+    margin-top: 2rem;
+    text-shadow: 3px 3px aliceblue ;
+
+}
+#what-i-do p{
+    margin-top: 2rem;
+    margin-bottom:2rem;
+    line-height: 25px;
+    
+}
+#Projects{margin-bottom: 6rem;
+    background-color: lightblue;
+    padding: 3rem;
+
+}
+#Projects h1{
+    text-align: center;
+    text-shadow: 3px 3px white;
+
+
+}
+#Projects h1:hover{
+    animation: 3s swing;
+}
+#Projects p {
+    text-align: center;
+    text-shadow:2px 2px white;
+}
+#Project-item {
+    border: 4px solid whitesmoke;
+    transition: 500ms;
+}
+#Project-item:hover{
+    transform: scale(1.1);
+    z-index: 1;
+}
+#ending{
+    width: 100%;
+    background-color: black;
+    padding: 5px 20px 10px 20px;
+    text-align: center;
+
+}
+#ending a{
+color: white;
+margin-right: 3rem;
+text-decoration: none;
+transition: 500ms;
+}
+#ending p{
+    color: white;
+    margin-right: 6rem;
+
+    
+}
+#ending a:hover{
+    background-color: grey;
+    text-decoration: underline;
+    
+}
